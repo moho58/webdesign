@@ -9,7 +9,7 @@
     <title>Bootstrap-Basis-Vorlage</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
     <!-- Unterstützung für Media Queries und HTML5-Elemente in IE8 über HTML5 shim und Respond.js -->
     <!-- ACHTUNG: Respond.js funktioniert nicht, wenn du die Seite über file:// aufrufst -->
@@ -22,76 +22,126 @@
 <style>
 
 .col-sm-12 {
-background-color: beige;
+background-color: #5C0001;
 text-align: center;
+padding-bottom: 2%;
+margin-bottom: 2%;
+color: white;
 }
 
-.col-sm-4 {
+.col-sm-3 {
 display: inline-block;
-width: 40%;
+margin: 2%;
 }
 
 
 .col-xs-6 {
 display: inline-block;
-text-align: left;
-background-color: grey;
-width: 30%;
-height: 30%;
+text-align: center;
+background-color: #F8F8F8;
+width: 50%;
+height: 50%;
 position: relative;
-border: 2px;
+border: 3px;
 border-style: solid;
-border-color: black;
+border-color: #5C0001;
 margin: 20px;
-padding: 30px;
+padding: 20px;
 }
 
 .col-sm-8 {
 display: inline-block;
-width: 60%;
+background-color: #F8F8F8;
+margin: 2%;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 </style>
 
   <body>
-    
+    <!--Header-->
     <div class="container-fluid">
       <div class="row">
     		<div class="col-sm-12">
-    			<img src= "file:///C:/Users/mo/Pictures/SubNY-Tumblr.jpg" class="img-responsive" alt="NYC Sub" width="90%" height="300px">
     				<h1>Mo's Homepage</h1></img> 
     				<p>Auf dieser Seite sammle ich Texte, Bilder und Audio-Dateien.</p>
+    			<img src= "file:///C:/Users/mo/Pictures/SubNY-Tumblr.jpg" class="center-block, img-rounded" alt="NYC Sub" width="90%" height="250px">
+    				
 	    	</div>
     	</div>
-    	<div class="Menu">
-  			<h3>Inline List</h3>
-  				<ul class="list-inline">
-    				<li><a href="#">Home</a></li>
-    				<li><a href="#">About</a></li>
-    				<li><a href="#">Me</a></li>
-    				<li><a href="#">Pics</a></li>
-  				</ul>
-		</div>
+    	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Titel und Schalter werden für eine bessere mobile Ansicht zusammengefasst -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Navigation ein-/ausblenden</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Titel</a>
+    </div>
+
+    <!-- Navigationslinks, Formulare und anderer Inhalt werden hier zusammengefasst und können dann ein- und ausgeblendet werden -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">About <span class="sr-only">(aktuell)</span></a></li>
+        <li><a href="#">Me</a></li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Suchen">
+        </div>
+        <button type="submit" class="btn btn-default">Los</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Menü</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menü <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Me</a></li>
+            <li><a href="#">Projekte</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Abgetrennter Link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
     </div>	 
           <!--Große Navigationsbox mit Glyphicons --> 
      <div class="container-fluid">
       <div class="row">
-    			<div class="col-sm-4" style="background-color:lavender;"><p>Hier sollen sechs Kästen entstehen</p>
+    			<div class="col-sm-3" style="background-color:#6497af;"><p>Hier sollen sechs Kästen entstehen</p>
     				<!--Navigationsboxen mit Glyphicons -->
           		<div class="col-xs-6 col-md-3">
-           			<p>Headphones icon: <span class="glyphicon glyphicon-headphones"></span></p>
+           			<p><span class="glyphicon glyphicon-pencil"></span></p>
+                  <p>Texte</p>       		
            		</div> 
             	<div class="col-xs-6 col-md-3">
-            		<p>Headphones icon: <span class="glyphicon glyphicon-headphones"></span></p>
+            		<p><span class="glyphicon glyphicon-headphones"></span></p>
+            		<p>Audio</p>
             	</div> 
              	<div class="col-xs-6 col-md-3">
-             		<p>Headphones icon: <span class="glyphicon glyphicon-headphones"></span></p>
+             	   <p><span class="glyphicon glyphicon-camera"></span></p>
+                  <p>Pictures</p>
+             	</div> 
+             	<div class="col-xs-6 col-md-3">
+             		<p><span class="glyphicon glyphicon-cutlery"></span></p>
+             		<p>Rezepte</p>
              	</div> 
      		 </div>
     <!--Content Box -->    
-   			  <div class="col-sm-8" style="background-color:lavenderblush;">
-     					<p>Hier soll ein großer Kasten für den jeweiligen Inhalt der kleinen Kästen enstehen.
+   			  <div class="col-sm-8" style="background-color:#F8F8F8">
+     					<p>Hier soll ein großer Kasten für den jeweiligen Inhalt der kleinen Kästen entstehen.
      				</div> 
      		</div>
    	</div>
