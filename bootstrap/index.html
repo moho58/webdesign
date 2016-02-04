@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Die 3 Meta-Tags oben *müssen* zuerst im head stehen; jeglicher sonstiger head-Inhalt muss *nach* diesen Tags kommen -->
-    <title>Bootstrap-Basis-Vorlage</title>
+    <title>Moritz Hoffmann</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -24,42 +24,67 @@
 .col-sm-12 {
 background-color: #5C0001;
 text-align: center;
-padding-bottom: 2%;
 margin-bottom: 2%;
+padding-bottom: 2%;
 color: white;
 }
 
 .col-sm-3 {
 display: inline-block;
 margin: 2%;
+text-align: center;
+color: white;
 }
 
 
 .col-xs-6 {
 display: inline-block;
 text-align: center;
+color: #333;
 background-color: #F8F8F8;
-width: 50%;
-height: 50%;
+width: 40%;
+height: 40%;
 position: relative;
 border: 3px;
 border-style: solid;
 border-color: #5C0001;
-margin: 20px;
+margin: 10px;
 padding: 20px;
 }
 
 .col-sm-8 {
 display: inline-block;
-background-color: #F8F8F8;
+text-align: center;
+color: white;
 margin: 2%;
 }
+
 
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+
+
+h1 {
+color: #F8F8F8;
+text-align: left;
+margin-left: 70px;
+}
+
+a {
+color: white;
+}
+
+#include-box {
+border: 3px;
+border-style: solid;
+border-color: #5C0001;
+color: #333;
+}
+
 
 
 </style>
@@ -70,12 +95,12 @@ margin: 2%;
       <div class="row">
     		<div class="col-sm-12">
     				<h1>Mo's Homepage</h1></img> 
-    				<p>Auf dieser Seite sammle ich Texte, Bilder und Audio-Dateien.</p>
     			<img src= "file:///C:/Users/mo/Pictures/SubNY-Tumblr.jpg" class="center-block, img-rounded" alt="NYC Sub" width="90%" height="250px">
     				
 	    	</div>
     	</div>
-    	<nav class="navbar navbar-default">
+    	<!--Navbar-->
+    	<nav class="navbar navbar-default" style="background-color:#6497af">
   <div class="container-fluid">
     <!-- Titel und Schalter werden für eine bessere mobile Ansicht zusammengefasst -->
     <div class="navbar-header">
@@ -85,29 +110,29 @@ margin: 2%;
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Titel</a>
+      <a class="navbar-brand" style="color:white" href="#">Home</a>
     </div>
 
     <!-- Navigationslinks, Formulare und anderer Inhalt werden hier zusammengefasst und können dann ein- und ausgeblendet werden -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">About <span class="sr-only">(aktuell)</span></a></li>
-        <li><a href="#">Me</a></li>
+        <li><a style="color:white" href="#">About</a></li>
+        <li><a style="color:white" href="#">Me</a></li>
+        <li><a style="color:white" href="#">Stuff</a></li>
       </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Suchen">
-        </div>
-        <button type="submit" class="btn btn-default">Los</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Menü</a></li>
+      <ul class="nav navbar-nav navbar-right" style="color: white">
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Suchen">
+            </div>
+           <button type="submit" class="btn btn-default">Los</button>
+        </form>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menü <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Me</a></li>
-            <li><a href="#">Projekte</a></li>
+          <a href="#" class="dropdown-toggle" style="color:#F8F8F8" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menü <span class="caret"></span></a>
+          <ul class="dropdown-menu" style="color:#F8F8F8">
+            <li><a style="color:white" href="#">About</a></li>
+            <li><a style="color:white" href="#">Me</a></li>
+            <li><a style="color:white" href="#">Projekte</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="#">Abgetrennter Link</a></li>
           </ul>
@@ -117,11 +142,11 @@ margin: 2%;
   </div><!-- /.container-fluid -->
 </nav>
     </div>	 
-          <!--Große Navigationsbox mit Glyphicons --> 
+          <!--Navigationsbox mit Glyphicons --> 
      <div class="container-fluid">
       <div class="row">
-    			<div class="col-sm-3" style="background-color:#6497af;"><p>Hier sollen sechs Kästen entstehen</p>
-    				<!--Navigationsboxen mit Glyphicons -->
+    			<div class="col-sm-3" style="background-color:#6497af;"><p>Hier sollen Kästen entstehen</p>
+    				<!--Boxen mit Glyphicons -->
           		<div class="col-xs-6 col-md-3">
            			<p><span class="glyphicon glyphicon-pencil"></span></p>
                   <p>Texte</p>       		
@@ -140,8 +165,19 @@ margin: 2%;
              	</div> 
      		 </div>
     <!--Content Box -->    
-   			  <div class="col-sm-8" style="background-color:#F8F8F8">
-     					<p>Hier soll ein großer Kasten für den jeweiligen Inhalt der kleinen Kästen entstehen.
+   			  <div class="col-sm-8" style="background-color:#6497af">
+     					<p>Hier soll ein großer Kasten für den jeweiligen Inhalt der kleinen Kästen entstehen.</p>
+     						<div class="col-sm-12" id="include-box" style="background-color:#F8F8F8">
+								<p>Hier</p>
+								<p>soll</p> 
+								<p>per</p>
+								<p>Include-Funktion</p>
+								<p>der</p>
+								<p>jeweils</p>
+								<p>angewählte</p>
+								<p>Kasteninhalt</p>
+								<p>erscheinen.</p>
+								<p>Oder auch eine Vorschau...</p>								
      				</div> 
      		</div>
    	</div>
@@ -157,7 +193,11 @@ margin: 2%;
     <!-- Binde alle kompilierten Plugins zusammen ein (wie hier unten) oder such dir einzelne Dateien nach Bedarf aus -->
     <script src="js/bootstrap.min.js"></script>
     <footer>
-      
+      <div class="container-fluid">
+      <div class="row">
+    		<div class="col-sm-12">
+    			<p>Social Media Buttons und Impressum</p>
+    		</div>
     </footer>
   </body>
 </html>
