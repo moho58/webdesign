@@ -1,0 +1,65 @@
+.col-sm-12 {
+background-color: #5C0001;
+text-align: center;
+margin-bottom: 2%;
+padding-bottom: 2%;
+color: white;
+}
+
+.col-sm-3 {
+display: inline-block;
+margin: 2%;
+text-align: center;
+color: white;
+}
+
+
+.col-xs-6 {
+display: inline-block;
+text-align: center;
+color: #333;
+background-color: #F8F8F8;
+width: 40%;
+height: 40%;
+position: relative;
+border: 3px;
+border-style: solid;
+border-color: #5C0001;
+margin: 10px;
+padding: 20px;
+}
+
+.col-sm-8 {
+display: inline-block;
+text-align: center;
+color: white;
+margin: 2%;
+}
+
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+h1 {
+color: #F8F8F8;
+text-align: left;
+margin-left: 70px;
+}
+
+a {
+color: white;
+}
+
+#include-box {
+border: 3px;
+border-style: solid;
+border-color: #5C0001;
+color: #333;
+}
+
+
