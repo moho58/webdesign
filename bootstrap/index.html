@@ -1,6 +1,3 @@
-<!-- Comments: image on line 30 not in repository -->
-<!-- Comments: move styles on line 36, 53-54, 56, 64-68, 81, 104, and 106 to style.css -->
-
 <!DOCTYPE html>
 <html lang="de">
   <head>
@@ -34,49 +31,21 @@
     	</div>
     </div>
 
-    <!--Navbar-->
-    <nav class="navbar navbar-default" style="background-color:#6497af">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default">
       <div class="container-fluid">
-        <!-- Titel und Schalter werden für eine bessere mobile Ansicht zusammengefasst -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Navigation ein-/ausblenden</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+        <div class="btn-group btn-group-lg" role="group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
           </button>
-          <a class="navbar-brand" style="color:white" href="#">Home</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">About</a>About</li>
+              <li><a href="#">Me</a>Me</li>
+              <li><a href="#">Projects</a>Projects</li>
+            </ul>
         </div>
-
-        <!-- Navigationslinks, Formulare und anderer Inhalt werden hier zusammengefasst und können dann ein- und ausgeblendet werden -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Me</a></li>
-            <li><a href="#">Stuff</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right" style="color: white">
-            <form class="navbar-form navbar-left" role="search">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Suchen">
-              </div>
-              <button type="submit" class="btn btn-default">Los</button>
-            </form>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menü <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Me</a></li>
-                <li><a href="#">Projekte</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Abgetrennter Link</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
+      </div>
     </nav>
-
     <!-- Navigationsbox -->
     <div class="container-fluid">
       <div class="row row-eq-height">
@@ -98,6 +67,14 @@
             <div class="col-xs-6 row-centered inner-box">
               <p><span class="glyphicon glyphicon-cutlery"></span></p>
               <p>Rezepte</p>
+            </div>
+            <div class="col-xs-6 row-centered inner-box">
+              <p><span class="glyphicon glyphicon-display"></span></p>
+              <p>Web</p>
+            </div>
+            <div class="col-xs-6 row-centered inner-box">
+              <p><span class="glyphicon glyphicon-user"></span></p>
+              <p>Me</p>
             </div>
           </div>
      		</div>
