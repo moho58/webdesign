@@ -1,34 +1,53 @@
 #header {
 	background-image: url ("https://github.com/moho58/webdesign/blob/master/SubNY-Tumblr.jpg");
 	background-color: #5C0001;
+	text-align: center;
 }
 
 .nav {
-	margin: 1%;
 	color: white;
 	background-color: #6497af; 
 }
 
 .navbar-nav {
+	text-align: center;
 	color: white;
 	background-color: #6497af;
 }
 
 .navbar {
+	text-align: center;
 	background-color:#6497af;
 	color: white;
 } 
 
 .navbar-default {
+	text-align: center;
 	background-color:#6497af;
 }
 
-.navbar-brand {
+.btn-group {
+	display: inline-block;
+	background-color:#6497af;
 	color: white;
+	margin:1%;
+	width: 100%;
+	height: auto;
 }
-.dropdown-menu {
-	color: white;
+
+.glyphicon-menu-hamburger {
+	box-shadow: #F8F8F8;
+	color: #F8F8F8;
+} 
+
+a:hover {
 	background-color: #F8F8F8;
+}
+
+.btn {
+	background-color:#6497af;
+	color: white;
+
 }
 
 .col-sm-12 {
