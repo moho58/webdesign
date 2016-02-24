@@ -1,20 +1,31 @@
-
 #header {
-	background-image: src="https://github.com/moho58/webdesign/blob/master/SubNY-Tumblr.jpg"; 
+	background-image: url ("https://github.com/moho58/webdesign/blob/master/SubNY-Tumblr.jpg");
 	background-color: #5C0001;
 }
 
 .nav {
 	margin: 1%;
 	color: white;
-	background-color: #F8F8F8; 
+	background-color: #6497af; 
 }
 
 .navbar-nav {
 	color: white;
-	background-color: #F8F8F8;
+	background-color: #6497af;
 }
 
+.navbar {
+	background-color:#6497af;
+	color: white;
+} 
+
+.navbar-default {
+	background-color:#6497af;
+}
+
+.navbar-brand {
+	color: white;
+}
 .dropdown-menu {
 	color: white;
 	background-color: #F8F8F8;
@@ -33,11 +44,11 @@
 	display: inline-block;
 	text-align: center;
 	color: #333;
-	background-color: #6497af
+	background-color: #6497af;
 	border: 3px;
 	border-style: solid;
 	border-color: white;
-	padding: 20px;
+	padding: 20px; 
 	border-radius: 5px;
 }
 
@@ -51,14 +62,14 @@
 .inner-box {
 	display: inline-block;
 	text-align: center;
-	height: 40%;
-	width: 40%;
+	height: 25%;
+	width: 25%;
 	background-color: white;
 	border-style: solid;
 	border-color: #5C0001;
 	border-radius: 5px;
 	padding: 5%;
-	margin: 2%;
+	margin: 4%;
 }
 
 .row-centered {
@@ -84,17 +95,16 @@ a {
 
 
 #iFrame-box {
-    width: 90%;
-	height: 90%;
-	position: relative;
+  width: 98%;
+	height: 95%;
 	text-align: center;
-	background-color:#F8F8F8
+	background-color:#F8F8F8;
 	color: #333;
 	border: 3px;
 	border-style: solid;
 	border-color: #5C0001;
 	border-radius: 5px;
-	padding: 2%;
+	padding: 3%;
 	margin: 1%;
 }
 
@@ -104,5 +114,6 @@ width: 98%;
 height: 98%;
 margin: auto;
 }
+
 
 
