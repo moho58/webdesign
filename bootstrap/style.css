@@ -1,24 +1,15 @@
-#header {
-	background-image: url ("https://github.com/moho58/webdesign/blob/master/SubNY-Tumblr.jpg");
+.header {
+	background-image: url (".../bootstrap/Images/SubNY-Tumblr.jpg");
 	background-color: #5C0001;
 	text-align: center;
 }
 
-.nav {
-	color: white;
-	background-color: #6497af; 
-}
-
-.navbar-nav {
-	text-align: center;
-	color: white;
-	background-color: #6497af;
-}
-
 .navbar {
+	display: flex;
 	text-align: center;
 	background-color:#6497af;
 	color: white;
+	padding: 5px;
 } 
 
 .navbar-default {
@@ -104,8 +95,7 @@ a:hover {
 
 h1 {
 	color: #F8F8F8;
-	text-align: left;
-	margin-left: 70px;
+	text-align: center;
 }
 
 a {
