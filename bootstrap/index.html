@@ -10,13 +10,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href= "style.css">
-    <!-- FontAwesome -- >
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
     
 
    <!-- JS for Responsive Design -->
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+   <!-- jQuery (wird für Bootstrap JavaScript-Plugins benötigt) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   <!-- Binde alle kompilierten Plugins zusammen ein (wie hier unten) oder such dir einzelne Dateien nach Bedarf aus -->
+      <script src="js/bootstrap.min.js"></script>
+  
   </head>
 
 
@@ -25,17 +31,19 @@
     <!--Header-->
     <div class="container-fluid">
       <div class="row">
-    		<div class="col-sm-12" id="header">
-    				<h1>Moritz Hoffmann</h1>
+    		<div class="col-sm-12 header">
+    				<img src="file:///C:/Users/mo/Pictures/SubNY-Tumblr.jpg" id="header-image" class="img-responsive img-rounded" alt="New York Metro"></img>
 	    	</div>
+</div>
+
     	</div>
     </div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default">
       <div class="container-fluid">
-        <div class="btn-group btn-group-lg" role="group">
-          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <div class="btn-group btn-group-lg dropdown" role="group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
             <span class="glyphicon glyphicon-menu-hamburger"></span>
           </button>
             <ul class="dropdown-menu">
@@ -81,8 +89,8 @@
 
         <!--Content Box -->
    		<div class="col-sm-6 col-xs-12 row-centered">
-     			 <div class="col-sm-12" id="iFrame-box"
-						<iframe src="http://lea.blogsport.de"></iframe> 
+     			 <div class="col-sm-12" id="iFrame-box">
+						<iframe src="http://giphy.com/gifs/art-black-and-white-animation-8F3Ube67CMoFO/fullscreen"></iframe> 
      			</div>
      		</div>
    	  </div>
@@ -93,17 +101,16 @@
 
 
 
-    <!-- jQuery (wird für Bootstrap JavaScript-Plugins benötigt) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Binde alle kompilierten Plugins zusammen ein (wie hier unten) oder such dir einzelne Dateien nach Bedarf aus -->
-    <script src="js/bootstrap.min.js"></script>
+    
     <footer>
       <div class="container-fluid">
         <div class="row">
     		  <div class="col-sm-12">
-    		  	
-    			  <p>Social Media Buttons und Impressum</p>
-    		
+            <a href="mailto:mohoffmann@mailbox.org" target="_top"><i class="fa fa-envelope-square fa-2x"></i></a>
+            <a href="https://github.com/moho58" title="github"><i class="fa fa-github-square fa-2x"></i></a>
+    		    <a href="https://twitter.com/moho_58"<i class="fa fa-twitter-square fa-2x"></i></a>
+            <a href="https://www.facebook.com/mo.n.tony.1"<i class="fa fa-facebook-square fa-2x"></i>
+            </a>
     		  </div>
         </div>
       </div>
