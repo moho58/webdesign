@@ -1,5 +1,5 @@
 .header {
-	background-image: url (".../bootstrap/Images/SubNY-Tumblr.jpg");
+	background-image: url(/Webdesign/Images/SubNY-Tumblr.jpg);
 	background-color: #5C0001;
 	text-align: center;
 }
@@ -11,64 +11,63 @@
 	position: relative;
 	}
 
-.navbar {
-	display: flex;
+.nav {
+	width:100%;
 	text-align: center;
 	background-color:#6497af;
-	color: white;
+	color: #F8F8F8;
 	padding: 1%;
-	margin: 1%;
+	margin-top: 1%;
 } 
-
-.navbar-default {
-	text-align: center;
-	background-color:#6497af;
+	
+.btn {
+	border:3px;
+	border-style: solid;
+	border-color: #5C0001;
+	background-color: #F8F8F8;
 }
 
-.btn-group {
-	display: inline-block;
-	background-color:#6497af;
-	color: white;
-	margin:1%;
-	width: 100%;
-	height: auto;
-}
 
 .glyphicon-menu-hamburger {
-	box-shadow: #F8F8F8;
-	color: #F8F8F8;
+	margin:10%;
+	box-shadow: #F8F8F8; 
 } 
 
-.fa {
-	background-color: #F8F8F8;
-	box-shadow: #F8F8F8;
-	color: #6497af;
-	padding:1%;
-	border-radius: 5px; 
+.dropdown-menu {
+	width:100%;
+	text-align: center;
+	background-color:#6497af;
+	color: #F8F8F8;
+	opacity: 0.5;
+	padding: 1%;
+	margin-top: 1%;
+	
 }
+
 
 a:hover {
 	background-color: #F8F8F8;
 }
 
-.btn {
-	background-color:#6497af;
-	color: white;
-
+.col.sm-12 {
+	text-align: center;
+	padding: 1%;
 }
 
-.col-sm-12 {
-	background-color: #5C0001;
+.col-xs-6-12 {
 	text-align: center;
-	padding: 2%;
-	color: white;
+	padding: 1%;
+	color: #F8F8F8;
 }
 
+.col-md-3 {
+	background-color: #6497af;
+	padding: 1%;
+	margin:1%;
+	border-radius: 5px;
+}
 
-.col-sm-6 {
-	display: inline-block;
-	text-align: center;
-	color: #333;
+.col-md-8 {
 	background-color: #6497af;
 	padding: 1%;
 	margin:1%;
@@ -79,33 +78,22 @@ a:hover {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
 }
 
 
 .inner-box {
 	display: inline-block;
 	text-align: center;
-	height: 25%;
-	width: 25%;
+	width: 35%;
+	height: auto;
 	background-color: #F8F8F8;
 	border-style: solid;
 	border-color: #5C0001;
 	border-radius: 5px;
-	padding: 5%;
-	margin: 4%;
+	padding: 6%;
+	margin: 6%;
 }
 
-.row-centered {
-    text-align:center;
-}
-
-
-.center-block {
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-}
 
 h1 {
 	color: #F8F8F8;
@@ -113,11 +101,20 @@ h1 {
 }
 
 a {
-	color: white;
+	color: #F8F8F8;
 }
 
 footer {
-	margin-top:1%;
+	text-align: center;
+	background-color: #5C0001;
+	padding: 2%
+
+}
+
+iframe {
+width: 98%; 
+height: 98%;
+margin: auto;
 }
 
 #iFrame-box {
@@ -134,11 +131,12 @@ footer {
 	margin: 1%;
 }
 
-
-iframe {
-width: 98%; 
-height: 98%;
-margin: auto;
+.fa {
+	background-color: #F8F8F8;
+	box-shadow: #F8F8F8;
+	color: #6497af;
+	padding:1%;
+	border-radius: 5px; 
 }
 
 
